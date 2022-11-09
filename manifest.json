@@ -1,0 +1,270 @@
+
+
+{
+ "name": "pestle+",
+ "version": "1.0.3",
+ "description": "Study smart with targeted practice by organizing pestle by difficulty, and challenge yourself with timed practice!",
+ "manifest_version": 3,
+ "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+ },
+ "author": "ibhereforyou",
+ "permissions": ["scripting", "activeTab", "tabs"],
+ "action": {
+  "default_title": "pestle+"
+ },
+ "host_permissions": ["https://pestle-ib.firebaseapp.com/math_hl/topic/*"],
+ "content_scripts": [
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/1/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/2/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/3/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/4/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/5/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/6/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/7/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/8/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/9/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/10/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math/topic/0/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math/topic/1/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math/topic/2/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math/topic/3/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math/topic/4/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math/topic/5/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math/topic/6/question/*"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/questionpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/1"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/2"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/3"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/4"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/5"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/6"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/7"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/8"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/9"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math_hl/topic/10"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math/topic/0"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math/topic/1"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math/topic/2"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math/topic/3"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math/topic/4"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math/topic/5"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    },
+    {
+      "matches": [
+        "https://pestle-ib.firebaseapp.com/math/topic/6"
+      ],
+      "run_at": "document_end",
+      "js": ["javascript/topicpage.js", "javascript/jquery-3.3.1.js"]
+    }
+  ],
+ "web_accessible_resources": [
+	{
+		"resources": ["json/questiontextjson.json", "javascript/tex-svg.js", "json/relatedquestions.json", "json/questionscores.json", "json/questiontopics.json", "json/questionpoints.json", "images/playpause1.png", "images/playpause2.png", "images/restart.png"],
+		"matches": ["<all_urls>"]
+	}
+  ],
+  "background": {
+    "service_worker": "javascript/background.js"
+  }
+
+}
