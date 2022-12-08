@@ -9,7 +9,7 @@ The Pestle website was initially scraped to compute question difficulty and rela
 
 | Without PestlePlus | With PestlePlus |
 |---|---|
-|![Screenshot](screenshot.png)| --- |
+|![Screenshot](images/PestlePlus1.png)| --- |
 
 ### Question difficulty
 
