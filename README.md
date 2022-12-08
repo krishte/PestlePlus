@@ -29,4 +29,4 @@ The main idea here was that related questions would contain similar/the same mat
 
 ### Timer functionality
 
-
+On each question page of Pestle, PestlePlus adds a floating timer in the bottom right of the page. The timer calculates the time a student would be allowed on that question using the number of points the question is worth and real IB exam time constraints. The timer then allows students to attempt the question with a time limit ranging from 25% to 200% of the allowed time, catering to students of all abilities. The timer is accompanied by a progress bar that changes gradually from green to red as time runs out. 
