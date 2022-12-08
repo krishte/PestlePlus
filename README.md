@@ -7,10 +7,8 @@ PestlePlus is a chrome extension that works on top of the Pestle website (https:
 
 The Pestle website was initially scraped to compute question difficulty and related questions, the results of which were then stored in json files. PestlePlus therefore alters the apperance of the Pestle website to reflect the stored information and to make he websie more dynamic. The following sections detail how the extension carries out its three purposes.
 
-| Without PestlePlus | With PestlePlus |
-|---|---|
-|![Screenshot 2022-12-08 at 11 38 41](https://user-images.githubusercontent.com/46422100/206427596-16cd9f7a-41f7-47ca-99dc-feafad762821.png)|![PeslePlus1](https://user-images.githubusercontent.com/46422100/206427542-5e1750a2-bdf3-4284-98ee-6e813314676c.png)|
-|![Screenshot 2022-12-08 at 11 50 30](https://user-images.githubusercontent.com/46422100/206428430-cff5cd92-d917-47aa-b360-f256d2997f87.png)|![Screenshot 2022-12-08 at 11 36 41](https://user-images.githubusercontent.com/46422100/206428494-bac991ae-146c-44de-b7d2-5387b2a2df3d.png)|
+![Screenshot 2022-12-08 at 11 38 41](https://user-images.githubusercontent.com/46422100/206428991-a976aa83-4349-4a7b-aac4-4753846ce7fc.png)
+
 
 ### Question difficulty
 
