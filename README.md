@@ -9,7 +9,7 @@ The Pestle website was initially scraped to compute question difficulty and rela
 
 | Without PestlePlus | With PestlePlus |
 |---|---|
-|![PeslePlus1](https://user-images.githubusercontent.com/46422100/206427401-7fe72280-a732-42f6-b308-7e34e87e9de0.png)| --- |
+|![Screenshot 2022-12-08 at 11 38 41](https://user-images.githubusercontent.com/46422100/206427596-16cd9f7a-41f7-47ca-99dc-feafad762821.png)|![PeslePlus1](https://user-images.githubusercontent.com/46422100/206427542-5e1750a2-bdf3-4284-98ee-6e813314676c.png)|
 
 ### Question difficulty
 
