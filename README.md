@@ -5,7 +5,7 @@ PestlePlus is a chrome extension that works on top of the Pestle website (https:
 - **Related questions** - To display related questions in terms of content for a given question
 - **Timer functionality** - To provide timer functionality so that studens can attempt questions with under real exam time limits 
 
-The Pestle website was initially scraped to compute question difficulty and related questions, the results of which were then stored in json files. PestlePlus therefore alters the apperance of the Pestle website to reflect the stored information and to make the website more dynamic.
+Pestle was initially scraped to compute question difficulty and related questions, the results of which were then stored in json files. PestlePlus therefore alters the apperance of Pestle to reflect the stored information and to make the website more dynamic.
 
 |Without PestlePlus|
 |---|
