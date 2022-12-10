@@ -1,9 +1,11 @@
 # PestlePlus
 ## Overview
-PestlePlus is a chrome extension that works on top of the Pestle website (https://pestle-ib.firebaseapp.com/). This website has a list of questions from past International Baccleaureate (IB) papers arranged by subject. Pestleplus currently works for the Math SL and Math HL subjects, and it has three main purposes:
-- **Question difficulty** - To assign each question a difficulty and display questions sorted by difficulty
-- **Related questions** - To display related questions in terms of content for a given question
-- **Timer functionality** - To provide timer functionality so that studens can attempt questions with under real exam time limits 
+PestlePlus is a chrome extension that works on top of the Pestle website (https://pestle-ib.firebaseapp.com/). This website has a list of questions from past International Baccleaureate (IB) papers arranged by subject. Pestleplus currently works for the Math SL and Math HL subjects.
+
+### Key Features:
+- **Question difficulty** - Assigns each question a difficulty and display questions sorted by difficulty
+- **Related questions** - Displays related questions in terms of content for a given question
+- **Timer functionality** - Provides timer functionality so that studens can attempt questions with under real exam time limits 
 
 Pestle was initially scraped to compute question difficulty and related questions, the results of which were then stored in json files. PestlePlus therefore alters the apperance of Pestle to reflect the stored information and to make the website more dynamic.
 
@@ -17,7 +19,7 @@ Pestle was initially scraped to compute question difficulty and related question
 |![PeslePlus1](https://user-images.githubusercontent.com/46422100/206429358-85ce2c62-dce5-4696-a874-1a2367599a53.png)|
 |![Screenshot 2022-12-08 at 11 36 41](https://user-images.githubusercontent.com/46422100/206429385-cb0d92ac-ae1d-46f5-bafe-3a0985112ffd.png)| 
 
-The following sections detail how the extension carries out its three purposes. 
+The following sections detail how the extension's three key features function.
 
 ### Question difficulty
 
